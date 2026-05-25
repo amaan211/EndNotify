@@ -1,0 +1,6 @@
+name: EndNotifier
+version: 1.0.0
+main: com.endnotifier.EndNotifier
+api-version: '1.20'
+description: Sends an email notification when a player enters the End for the first time.
+author: Server Admin

@@ -1,0 +1,23 @@
+# ============================================
+# EndNotifier Configuration
+# ============================================
+
+# SMTP settings for sending email notifications.
+# Gmail example shown below. For Gmail, you MUST use an App Password
+# (not your normal password). Generate one at:
+# https://myaccount.google.com/apppasswords
+
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  username: "your-email@gmail.com"
+  password: "your-app-password"
+  from: "your-email@gmail.com"
+
+# The email address that will receive notifications.
+notify-email: "your-email@gmail.com"
+
+# The advancement key to watch for.
+# "minecraft:end/root" = "The End" advancement (first time entering the End dimension).
+# Alternative: "minecraft:story/follow_ender_eye" = "Eye Spy" (finding a stronghold).
+advancement: "minecraft:end/root"
